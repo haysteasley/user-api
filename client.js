@@ -20,8 +20,8 @@ console.log(data)
      // display result 
      result.innerHTML = `
        <p>For ${monthInput}, the recommended taco is: ${data}</p>
-       <p>${catData.catFace}</p>
-     `;
+       <h1>${catData.catFace}</h1>
+     `
     
 
   } catch (error) {
@@ -29,7 +29,7 @@ console.log(data)
     result.innerHTML = "<p>Error fetching taco recommendation.</p>";
   }
 };
-// check for errors?
+// check for errors
 document.addEventListener('DOMContentLoaded', () => {
   console.log("DOM content event fired."); 
   
