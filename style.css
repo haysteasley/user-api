@@ -18,8 +18,14 @@
     padding: 30px;
     display: flex;
     align-items: center;
-    
+}
 
+input {
+padding: 10px;
+border-radius: 10px;
+border-style: none;
+margin-top: 10px;
+min-width: 185px;
 }
 
 button{
@@ -28,8 +34,14 @@ button{
     padding: 10px;
     border-radius: 10px;
     margin: 20px;
-    
+    border-style: none;
+    min-width: 200px;
 }
+
+h1 {
+    font-size: 40px;
+}
+
 body{
     background-color: rgb(140, 199, 180);
 
